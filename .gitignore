@@ -1,0 +1,39 @@
+# --------------------
+# Security & Secrets
+# --------------------
+.env
+.env.*
+*.pem
+
+# --------------------
+# Terraform
+# --------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# --------------------
+# Databricks
+# --------------------
+.databricks/
+
+# --------------------
+# OS & IDEs
+# --------------------
+.DS_Store
+.vscode/
+.idea/
